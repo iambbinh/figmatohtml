@@ -9,4 +9,26 @@ html {
 /* Khôi phục lại cỡ chữ mặt định theo rem */
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* Common Styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Header Styles */
+.header .body {
+  display: flex;
+}
+.nav ul {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
 }
