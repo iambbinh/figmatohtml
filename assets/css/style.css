@@ -83,3 +83,16 @@ a {
 .header .action {
   margin-left: 32px;
 }
+/* Hero Styles */
+.hero {
+  padding-top: 56px;
+}
+.hero .body {
+  display: flex;
+}
+.hero .media-block {
+  width: 48%;
+}
+.hero .content-block {
+  width: 52%;
+}
