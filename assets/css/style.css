@@ -233,8 +233,8 @@ Hero Styles
 }
 /* Popular */
 .popular {
-  margin-top: 135px;
-  padding: 65px 0;
+  margin-top: 40px;
+  padding: 40px 0;
 }
 .popular-top {
   display: flex;
@@ -246,4 +246,19 @@ Hero Styles
   color: #5f5b53;
   font-size: 1.8rem;
   line-height: 1.67;
+}
+.popular-top .controls {
+  display: flex;
+  gap: 18px;
+}
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  color: var(--primary-color);
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
 }
