@@ -25,6 +25,14 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #171100;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 .btn {
   display: inline-block;
   min-width: 120px;
@@ -222,4 +230,20 @@ Hero Styles
 }
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+/* Popular */
+.popular {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67;
 }
