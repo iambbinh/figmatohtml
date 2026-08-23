@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-1,
+.box-4,
+.box-5 {
+  background: aqua;
+}
+.box-2,
+.box-3 {
+  background: blue;
+}
