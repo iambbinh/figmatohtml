@@ -1,5 +1,8 @@
 .container {
   display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 250px 50px;
+  gap: 10px 20px;
 }
 .box {
   display: flex;
