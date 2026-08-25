@@ -1,7 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 250px 50px;
+  grid-template-columns: 100px repeat(2, 50px);
+  grid-template-rows: repeat(3, 100px);
   gap: 10px 20px;
 }
 .box {
