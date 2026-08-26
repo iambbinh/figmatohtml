@@ -1,4 +1,5 @@
-// Ép kiểu dữ liệu
-let numberC = parseInt(prompt("Nhập vào số C:"));
-console.log(typeof numberC); // Kiểm tra kiểu dữ liệu của numberC
-console.log(numberC);
+// Toán tử gán
+let e = 5;
+let f = 2;
+e -= f + 1;
+console.log("e =", e);
