@@ -1,10 +1,7 @@
 .container {
   display: grid;
   gap: 4px;
-  grid-template-areas:
-    "header header header"
-    "menu content sidebar"
-    "menu footer footer";
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 .box {
   display: flex;
@@ -14,23 +11,18 @@
 }
 .box-1 {
   background: green;
-  grid-area: header;
 }
 .box-2 {
   background: blue;
-  grid-area: menu;
 }
 .box-3 {
   background: pink;
-  grid-area: content;
 }
 .box-4 {
   background: orange;
-  grid-area: sidebar;
 }
 .box-5 {
   background: cyan;
-  grid-area: footer;
 }
 .box-6 {
   background: brown;
